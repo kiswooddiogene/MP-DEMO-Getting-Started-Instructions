@@ -17,14 +17,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: light green
-      accent: amber 
+      primary: black
+      accent: blue
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: light green
-      accent: amber
+      primary: black
+      accent: blue
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

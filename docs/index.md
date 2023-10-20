@@ -11,13 +11,13 @@
 ??? "2. Select a Project Option"
     <img width="540" alt="image" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/fc7a6ee0-223c-4f48-831a-c637d1e71dc0">
 
-??? "3. Select a Warehouse Layout - Large"
+??? "3. Select a Warehouse Layout - i.e., Large"
     <img width="755" alt="Screenshot 2023-10-12 at 10 43 19 AM" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/94200317-0a7a-4f48-ac95-afeac91af27f">
 
-??? "4. Select Layout and copy the data from the warehouse layout text file to the data window"
+??? "4. Select Layout and Copy the Data From The Warehouse Layout Text File To The Data Window"
     "<img width="946" alt="Screenshot 2023-10-12 at 10 44 16 AM" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/9be71757-432a-4b8a-90ed-e1979450e04e">"
 
-??? "5. Select "Update Racks". You should see the same color scheme below if this was done correctly"
+??? "5. Select "Update Racks". You Should See The Same Color Scheme Below If This Was Done Correctly"
     <img width="540" alt="image" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/5034ab63-d7a7-4771-8128-98f545b02591">
 
 ??? "6. Select the Order Optimization Tab"
@@ -30,7 +30,7 @@
 ??? "8. Select Optimize and Wait for the Server to Optimize the Order Sequence to Minimize Travel Distance"
     <img width="540" alt="image" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/a5c400fd-9215-455a-b487-1c8f2243ffd3">
 
-??? "9. Compare Original travel distance to optimized by selecting the associated arrow for each order to view how our solution reduces travel distance"
+??? "9. Compare Original Travel Distance to Optimized"
     <img width="540" alt="image" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/413c4327-3e94-4ba3-9715-8cc35f4e5fc5">
 
 
