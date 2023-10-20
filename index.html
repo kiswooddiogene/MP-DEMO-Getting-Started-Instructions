@@ -1,0 +1,676 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+    
+    
+      
+        <title>Welcome to MiiPlan Documentation Portal</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.35e1ed30.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#getting-started-with-miiplan-demo" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Welcome to MiiPlan Documentation Portal" class="md-header__button md-logo" aria-label="Welcome to MiiPlan Documentation Portal" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Welcome to MiiPlan Documentation Portal
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting Started with MiiPlan Demo
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  Getting Started with MiiPlan Demo
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Welcome to MiiPlan Documentation Portal" class="md-nav__button md-logo" aria-label="Welcome to MiiPlan Documentation Portal" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Welcome to MiiPlan Documentation Portal
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Getting Started with MiiPlan Demo
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started with MiiPlan Demo
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#miiplan-is-a" class="md-nav__link">
+    MiiPlan is a .........
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-this-demo-you-will-be-able-to" class="md-nav__link">
+    In this Demo you will be able to .....
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="getting-started-with-miiplan-demo">Getting Started with MiiPlan Demo</h1>
+<h4 id="miiplan-is-a">MiiPlan is a .........</h4>
+<h4 id="in-this-demo-you-will-be-able-to">In this Demo you will be able to .....</h4>
+<details>
+<summary>1. Go To The Link Provided to Access MiiPlan Demo Portal</summary>
+<p><a href= "warehouse-sveltekit-babylonjs.vercel.app/3d" target ="_black"> This link takes you to our demo site.</a></p>
+</details>
+<details>
+<summary>2. Select a Project Option</summary>
+<p><img width="540" alt="image" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/fc7a6ee0-223c-4f48-831a-c637d1e71dc0"></p>
+</details>
+<details>
+<summary>3. Select a Warehouse Layout - i.e., Large</summary>
+<p><img width="755" alt="Screenshot 2023-10-12 at 10 43 19 AM" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/94200317-0a7a-4f48-ac95-afeac91af27f"></p>
+</details>
+<details>
+<summary>4. Select Layout and Copy the Data From The Warehouse Layout Text File To The Data Window</summary>
+<p>"<img width="946" alt="Screenshot 2023-10-12 at 10 44 16 AM" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/9be71757-432a-4b8a-90ed-e1979450e04e">"</p>
+</details>
+<details>
+<summary>5. Select "Update Racks". You Should See The Same Color Scheme Below If This Was Done Correctly</summary>
+<p><img width="540" alt="image" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/5034ab63-d7a7-4771-8128-98f545b02591"></p>
+</details>
+<details>
+<summary>6. Select the Order Optimization Tab</summary>
+<p><img width="346" alt="image" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/0c715f88-f153-451b-a15a-8491473843cd"></p>
+</details>
+<details>
+<summary>7. Copy a Sample of Order Data from the Orders Text File</summary>
+<p>IMPORTANT: Do not select more than 300 lines, the server will time out after running for 1 minute, and the program will not complete the process. not to change the top row. An example of order data to test the software at the end of the instructions.
+<img width="468" alt="image" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/5a7361a6-6a73-49ed-a65d-b5a2a91916fc"></p>
+</details>
+<details>
+<summary>8. Select Optimize and Wait for the Server to Optimize the Order Sequence to Minimize Travel Distance</summary>
+<p><img width="540" alt="image" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/a5c400fd-9215-455a-b487-1c8f2243ffd3"></p>
+</details>
+<details>
+<summary>9. Compare Original Travel Distance to Optimized</summary>
+<p><img width="540" alt="image" src="https://github.com/james-willett/mkdocs-material-youtube-tutorial/assets/83671833/413c4327-3e94-4ba3-9715-8cc35f4e5fc5"></p>
+</details>
+<details>
+<summary>Example Order Data Used For This Demo</summary>
+<div class="highlight"><pre><span></span><code>S1003247362,SR-045-021-B1,1
+S1003247105,024-379-036-001,45
+S1003238328,024-378-036-001,3
+S1003239428,024-378-009-001,1
+S1003247105,SF-043-040,4
+S1003247106,SF-043-095,24
+S1003247107,024-379-036-001,15
+S1003247362,SR-045-010-B1,1
+S1003238328,024-378-037-001,2
+S1003247111,SR-045-049-B1,2
+S1003238328,SR-047-034-B1,3
+S1003247111,SR-047-008-B1,1
+S1003247362,SR-047-056-B1,1
+S1003247105,SR-045-008-A1,13
+S1003238328,SR-047-035-A1,4
+S1003247105,SF-043-097,29
+S1003247111,SR-047-012-B1,2
+S1003247362,SR-053-066-B1,1
+S1003239428,SR-047-035-A1,1
+S1003247111,SR-047-058-B1,1
+S1003116237,024-374-004-001,2
+S1003238328,SR-047-037-A1,10
+S1003247111,SR-047-059-A1,1
+S1003247105,SF-041-100,2
+S1003247111,SR-047-065-A1,2
+S1003247105,SF-041-003,38
+S1003247111,SR-049-052-A1,1
+S1003247111,SR-049-055-B1,1
+S1003247105,SF-043-093,51
+S1003247105,SR-055-068-B1,3
+S1003247111,SR-051-065-B1,2
+S1003247105,SF-043-007,6
+S1003116219,024-374-057-001,103
+S1003247105,SR-049-024-B1,7
+S1003189743,SF-043-011,50
+S1003247106,SF-043-007,39
+S1003131080,SR-045-008-B1,46
+S1003236595,024-375-052-001,18
+S1003116219,024-374-060-001,99
+S1003247106,SR-045-008-A1,15
+S1003239426,SR-045-070-A1,21
+S1003247105,SF-043-095,8
+S1003247105,SF-043-096,44
+S1003189742,SR-045-027-A1,17
+S1003189743,SF-043-051,20
+S1003239426,SR-047-002-A1,4
+S1003247106,SF-043-097,2
+S1003189742,SR-051-056-A1,25
+S1003236595,024-379-004-001,49
+S1003240433,SF-041-097,45
+S1003247106,SR-047-008-A1,26
+S1003247107,024-379-037-001,37
+S1003116237,SF-041-080,99
+S1003247106,SR-049-008-A1,9
+S1003247105,SR-045-028-A1,29
+S1003245356,SF-041-022,23
+S1003247106,SR-049-041-B1,4
+S1003189743,SR-045-041-B1,28
+S1003236595,024-379-023-001,3
+S1003245356,SR-045-008-B1,4
+S1003247105,SR-049-008-A1,8
+S1003247105,SR-051-053-B1,23
+S1003189743,SR-045-038-B1,7
+S1003236595,024-379-035-001,4
+S1003189743,SF-041-003,93
+S1003236595,SF-041-067,3
+S1003239443,SR-055-052-A1,2
+S1003247105,SR-051-062-B1,7
+S1003242079,SF-043-072,22
+S1003189743,SR-045-038-A1,25
+S1003240433,SF-041-064,47
+S1003189743,SR-045-030-B1,7
+S1003239440,SR-055-052-A1,1
+S1003242079,SF-043-082,7
+S1003239444,024-378-040-001,4
+S1003189743,SR-047-035-A1,3
+S1003238208,024-379-006-001,30
+S1003242079,SR-045-041-B1,21
+S1003239444,SR-047-044-B1,3
+S1003242079,SR-047-002-A1,33
+S1003239444,SR-053-028-B1,2
+S1003231870,SR-049-019-B1,15
+S1003231870,SR-049-050-B1,1
+S1003242079,SR-045-033-A1,26
+S1003238055,024-374-003-001,2
+S1003240433,SF-043-096,8
+S1003238054,SR-053-035-A1,26
+S1003239436,SR-047-035-A1,1
+S1003238055,024-374-048-001,5
+S1003240433,SR-051-056-B1,3
+S1003242079,SR-045-027-B1,4
+S1003238053,024-374-004-001,4
+S1003238055,024-374-051-001,2
+S1003238207,024-379-010-001,10
+S1003242079,SR-047-004-A1,60
+S1003242079,SR-045-026-B1,31
+S1003238055,024-374-065-001,2
+S1003239436,SR-049-036-A1,2
+S1003238055,SF-043-035,14
+S1003238053,SF-041-062,85
+S1003189742,SF-041-093,34
+S1003238053,SF-041-041,12
+S1003238053,SF-043-062,5
+S1003238209,SR-043-002-A1,9
+S1003238053,SR-045-012-A1,14
+S1003238329,SR-043-006-B1,36
+S1003189742,SF-041-066,25
+S1003238055,SR-047-009-A1,1
+S1003242079,SR-047-053-A1,4
+S1003185107,SF-041-045,2
+S1003237927,SR-049-020-B1,30
+S1003238053,SF-041-022,46
+S1003238053,024-374-007-001,12
+S1003185107,SR-045-043-B1,1
+S1003238053,024-374-010-001,2
+S1003238053,SR-045-008-A1,7
+S1003238053,SR-047-008-A1,35
+S1003238055,SR-047-010-A1,1
+S1003238055,SR-047-019-A1,5
+S1003189742,SF-041-024,8
+S1003238053,SR-049-038-B1,11
+S1003238053,024-375-011-001,24
+S1003238329,024-374-052-001,1
+S1003185107,SR-045-035-A1,1
+S1003238053,024-375-013-001,16
+S1003238055,SR-049-029-B1,3
+S1003242079,SR-045-023-B1,13
+S1003185120,SR-049-049-B1,1
+S1003189742,SF-041-003,42
+S1003242079,SR-049-020-A1,12
+S1003238053,SF-041-013,8
+S1003238053,SR-043-010-B1,9
+S1003238053,SR-047-033-B1,65
+S1003238055,SR-053-033-A1,12
+S1003185101,SF-041-045,2
+S1003238053,SR-049-070-A1,6
+S1003238053,024-374-021-001,1
+S1003238207,SF-041-064,44
+S1003238329,SR-045-068-A1,2
+S1003238329,024-374-054-001,11
+S1003189742,SR-045-038-A1,100
+S1003242079,SR-049-029-B1,6
+S1003245531,024-375-001-001,1
+S1003185101,SR-045-043-B1,1
+S1003242079,SR-045-010-A1,8
+S1003185101,SR-045-035-A1,2
+S1003185101,SR-049-043-A1,1
+S1003238053,024-374-036-001,1
+S1003238329,SR-045-043-B1,7
+S1003242079,SR-049-043-A1,17
+S1003238053,SF-043-052,2
+S1003238053,024-375-052-001,12
+S1003238053,024-375-051-001,19
+S1003238329,SR-045-037-A1,3
+S1003185101,SR-055-066-B1,2
+S1003238053,024-378-013-001,3
+S1003238053,SR-051-021-A1,2
+S1003238329,SR-045-035-A1,15
+S1003238329,SR-045-034-B1,14
+S1003238053,SF-043-059,6
+S1003238053,SR-047-060-B1,2
+S1003239422,SR-045-028-A1,1
+S1003238053,SR-051-025-A1,17
+S1003238053,SR-045-008-B1,6
+S1003238329,SR-045-030-B1,13
+S1003242079,SR-051-006-A1,2
+S1003245305,024-374-048-001,3
+S1003238053,SR-051-026-A1,8
+S1003238053,SR-049-005-A1,1
+S1003238329,SR-045-023-A1,9
+S1003239422,SR-047-069-A1,1
+S1003238207,SR-051-029-A1,24
+S1003242079,SR-047-036-A1,13
+S1003238329,SR-045-011-A1,2
+S1003239420,024-378-040-001,1
+S1003238329,SR-045-009-A1,6
+S1003245531,024-375-008-001,1
+S1003245531,024-375-005-001,2
+S1003238053,SR-051-028-A1,2
+S1003238053,SR-051-052-B1,5
+S1003238053,024-378-023-001,16
+S1003238329,SR-045-005-B1,6
+S1003245531,024-375-012-001,2
+S1003238053,024-379-043-001,1
+S1003238329,SR-045-003-A1,12
+S1003238329,024-375-055-001,2
+S1003245305,024-374-051-001,1
+S1003245307,024-375-002-001,1
+S1003238055,SR-053-038-A1,7
+S1003245307,024-375-052-001,14
+S1003245531,024-375-014-001,4
+S1003245531,024-374-013-001,1
+S1003238053,024-379-051-001,14
+S1003238053,SR-051-054-A1,27
+S1003240433,SR-045-070-A1,140
+S1003242079,SR-051-038-B1,19
+S1003245305,SF-041-003,8
+S1003245531,024-374-018-001,4
+S1003238053,SR-051-053-B1,3
+S1003238053,024-379-054-001,27
+S1003238329,SR-047-036-A1,4
+S1003245531,024-374-020-001,4
+S1003238329,024-375-056-001,16
+S1003245307,SR-045-012-A1,23
+S1003245531,024-375-027-001,2
+S1003245531,024-374-022-001,5
+S1003219429,024-375-010-001,21
+S1003238053,SF-041-100,37
+S1003238053,SR-049-008-A1,6
+S1003238053,SR-051-062-B1,11
+S1003238329,SR-049-012-B1,4
+S1003238329,024-374-057-001,6
+S1003245305,SF-043-035,4
+S1003238329,SR-051-038-B1,8
+S1003242079,SR-051-044-A1,13
+S1003238053,SF-041-060,2
+S1003238329,024-375-057-001,2
+S1003239420,SR-047-044-B1,1
+S1003245305,SR-047-009-A1,2
+S1003245307,SF-041-096,25
+S1003238053,SF-041-096,106
+S1003238053,SF-041-081,19
+S1003238053,SR-049-011-A1,1
+S1003238053,SR-049-017-B1,6
+S1003238329,SR-051-044-A1,2
+S1003245307,SF-041-022,66
+S1003238053,SR-049-023-B1,16
+S1003238329,024-375-058-001,5
+S1003245307,SF-041-081,9
+S1003245531,024-375-029-001,3
+S1003238329,SR-053-026-A1,2
+S1003238329,024-375-059-001,1
+S1003239420,SR-053-028-B1,1
+S1003245305,SR-047-019-A1,2
+S1003245307,SF-041-080,4
+S1003245307,SF-041-065,8
+</code></pre></div>
+</details>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="https://github.com/Kiswooddiogene"  target="_blank" rel="noopener">MiiPlan</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+    
+  </body>
+</html>
